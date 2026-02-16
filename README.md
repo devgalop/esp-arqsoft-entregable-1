@@ -12,6 +12,8 @@ Los principios seleccionados para realizar la exposición son: **Dependency Inve
 
 ## Dominio
 
+El contexto de la exposición será un software encargado de realizar facturación electronica. Especificamente nos centraremos en el paso que realiza el aplicativo emitiendo el documento ante un organizmo gubernamental.
+
 ## Problema
 
 ## Principios Aplicados
