@@ -5,9 +5,6 @@ using System.Threading.Tasks;
 
 namespace Sample.bad_design;
 
-/// <summary>
-/// Representa el tipo de facturas que se pueden generar
-/// </summary>
 public enum TipoFactura
 {
     POS,
