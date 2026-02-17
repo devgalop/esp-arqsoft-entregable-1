@@ -1,5 +1,4 @@
-namespace Sample.bad_design;
-
+namespace Sample.correct_design;
 public class DetalleFactura(Producto producto, int cantidad)
 {
     private readonly Producto _producto = producto;

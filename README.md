@@ -16,6 +16,8 @@ El contexto de la exposición será un software encargado de realizar facturaci�
 
 ## Problema
 
+Se presenta un código funcional para el proceso de emision de factura ante la DIAN, sin embargo, el código tiene dos problemas principales que chocan directamente con los principios seleccionados para estudio. [ver más](./Sample/bad_design/bad_design.md)
+
 ## Principios Aplicados
 
 - **Dependency Inversion Principle (DIP)**

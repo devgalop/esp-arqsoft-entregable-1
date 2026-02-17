@@ -1,5 +1,4 @@
-namespace Sample.bad_design;
-
+namespace Sample.correct_design;
 public record Producto(string Nombre, float Precio, float PorcentajeImpuesto)
 {
     public float CalcularPrecioConImpuesto()
