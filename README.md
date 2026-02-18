@@ -43,6 +43,12 @@ Se presenta un código funcional para el proceso de emision de factura ante la D
   
 ## Justificación
 
+La aplicación de los principios **DIP** + **Low Coupling** permiten al sistema quitar dependencias inaportantes, incrementar la flexibilidad y extensibilidad del modelo. [ver más...](./Sample/correct_design/correct_design.md)
+
+## Ejercicio propuesto
+
+Con el fin de practicar los conceptos aprendidos, se propone un ejercicio adicional. [ver más...](./Exercise/exercise.md)
+
 ## Lecturas recomendadas
 
 - [Dependency Inversion Principle](https://www.geeksforgeeks.org/system-design/dependecy-inversion-principle-solid/)
