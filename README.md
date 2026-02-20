@@ -14,6 +14,8 @@ Los principios seleccionados para realizar la exposición son: **Dependency Inve
 
 El contexto de la exposición será un software encargado de realizar facturación electronica. Especificamente nos centraremos en el paso que realiza el aplicativo emitiendo el documento ante un organizmo gubernamental.
 
+![diagrama_dominio](esp-arqsoft-entrega-1-containers.drawio.png)
+
 ## Problema
 
 Se presenta un código funcional para el proceso de emision de factura ante la DIAN, sin embargo, el código tiene dos problemas principales que chocan directamente con los principios seleccionados para estudio. [ver más](./Sample/bad_design/bad_design.md)
