@@ -32,6 +32,7 @@ public class Factura(TipoFactura tipoFactura)
     {
         ServicioDIAN dian = new ServicioDIAN();
         //lógica para emitir factura de venta
+        Console.WriteLine("Emitiendo factura de venta...");
         return dian.Validar(this);
     }
 
@@ -39,6 +40,7 @@ public class Factura(TipoFactura tipoFactura)
     {
         ServicioDIAN dian = new ServicioDIAN();
         //lógica para emitir factura POS
+        Console.WriteLine("Emitiendo factura POS...");
         return dian.Validar(this);
     }
 
@@ -46,6 +48,7 @@ public class Factura(TipoFactura tipoFactura)
     {
         ServicioDIAN dian = new ServicioDIAN();
         //lógica para emitir documento equivalente
+        Console.WriteLine("Emitiendo documento equivalente...");
         return dian.Validar(this);
     }
 

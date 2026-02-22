@@ -4,12 +4,12 @@ public class DetalleFactura(Producto producto, int cantidad)
     private readonly Producto _producto = producto;
     private readonly int _cantidad = cantidad;
 
-    public float CalcularSubtotal()
+    public decimal CalcularSubtotal()
     {
         return _producto.ObtenerPrecio() * _cantidad;
     }
 
-    public float AplicarIVA()
+    public decimal AplicarIVA()
     {
         return _producto.CalcularPrecioConImpuesto() * _cantidad;
     }

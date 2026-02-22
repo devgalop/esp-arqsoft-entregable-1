@@ -1,13 +1,17 @@
 namespace Sample.correct_design;
-public record Producto(string Nombre, float Precio, float PorcentajeImpuesto)
+public class Producto(string Nombre, decimal Precio, decimal PorcentajeImpuesto)
 {
-    public float CalcularPrecioConImpuesto()
+    private readonly string _nombre = Nombre;
+    private readonly decimal _precio = Precio;
+    private readonly decimal _porcentajeImpuesto = PorcentajeImpuesto;
+
+    public decimal CalcularPrecioConImpuesto()
     {
-        return Precio + (Precio * PorcentajeImpuesto);
+        return _precio + (_precio * _porcentajeImpuesto);
     }
 
-    public float ObtenerPrecio()
+    public decimal ObtenerPrecio()
     {
-        return Precio;
+        return _precio;
     }
 }

@@ -20,9 +20,9 @@ public class Factura(TipoFactura tipoFactura)
 
     public TipoFactura Tipo => _tipoFactura;
 
-    private float CalcularTotal()
+    private decimal CalcularTotal()
     {
-        float total = 0;
+        decimal total = 0;
         foreach (var detalle in Detalles)
         {
             total += detalle.Subtotal;
